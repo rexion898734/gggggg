@@ -1,0 +1,223 @@
+#loco
+@bot.command(name="loco",description="")
+async def loco(ctx,accuracy:str,prize_won:str,last_question_status:str,result:str):
+	await ctx.message.delete()
+	author=ctx.message.author
+	if last_question_status== 'correct':
+		check=":white_check_mark::white_check_mark:"
+	else:
+		check=":x::x:"
+	if result=='won':
+		emoji =":trophy::trophy:"
+	else:
+		emoji="😭 😭"
+	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
+		embed=discord.Embed(title="Game Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
+		embed.add_field(name="**__LOCO__**",value=f"**Accuracy:\n ➜{accuracy}{check}\n\nPrize Won:\n ➜{prize_won} 💸\n\nLast Question: \n ➜{last_question_status}{check}\n\nGame Status:\n ➜{result} {emoji}**")
+		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/596710160035217408/597750968528142337/giphy.gif")
+		embed.set_image(url="https://cdn.discordapp.com/attachments/610979650394390528/611197487235072020/separation-1.gif")
+		embed.set_footer(text="Velocity",icon_url="https://cdn.discordapp.com/attachments/615767499602001921/620214112949108736/JPEG_20190906_151140.jpg")
+		await ctx.send(content="@everyone",embed=embed)
+	else:
+		await ctx.send("**__SORRY__** You Not Have Permission To use this commands**:joy: "+ctx.author.mention)
+	   
+#loco
+@bot.command(name="loco",description="")
+async def loco(ctx,accuracy:str,prize_won:str,last_question_status:str,result:str):
+	await ctx.message.delete()
+	author=ctx.message.author
+	if last_question_status== 'correct':
+		check=":white_check_mark::white_check_mark:"
+	else:
+		check=":x::x:"
+	if result=='won':
+		emoji =":trophy::trophy:"
+	else:
+		emoji="😭 😭"
+	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
+		embed=discord.Embed(title="Game Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
+		embed.add_field(name="**__LOCO__**",value=f"**Accuracy:\n ➜{accuracy}{check}\n\nPrize Won:\n ➜{prize_won} 💸\n\nLast Question: \n ➜{last_question_status}{check}\n\nGame Status:\n ➜{result} {emoji}**")
+		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/596710160035217408/597750968528142337/giphy.gif")
+		embed.set_image(url="https://cdn.discordapp.com/attachments/610979650394390528/611197487235072020/separation-1.gif")
+		embed.set_footer(text="Velocity",icon_url="https://cdn.discordapp.com/attachments/615767499602001921/620214112949108736/JPEG_20190906_151140.jpg")
+		await ctx.send(content="@everyone",embed=embed)
+	else:
+		await ctx.send("**__SORRY__ You Not Have Permission To use this commands**:joy: "+ctx.author.mention)
+#loco
+@bot.command(name="loco",description="")
+async def loco(ctx,accuracy:str,prize_won:str,last_question_status:str,result:str):
+	await ctx.message.delete()
+	author=ctx.message.author
+	if last_question_status== 'correct':
+		check=":white_check_mark::white_check_mark:"
+	else:
+		check=":x::x:"
+	if result=='won':
+		emoji =":trophy::trophy:"
+	else:
+		emoji="😭 😭"
+	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
+		embed=discord.Embed(title="Game Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
+		embed.add_field(name="**__LOCO__**",value=f"**Accuracy:\n ➜{accuracy}{check}\n\nPrize Won:\n ➜{prize_won} 💸\n\nLast Question: \n ➜{last_question_status}{check}\n\nGame Status:\n ➜{result} {emoji}**")
+		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/596710160035217408/597750968528142337/giphy.gif")
+		embed.set_image(url="https://cdn.discordapp.com/attachments/610979650394390528/611197487235072020/separation-1.gif")
+		embed.set_footer(text="Velocity",icon_url="https://cdn.discordapp.com/attachments/615767499602001921/620214112949108736/JPEG_20190906_151140.jpg")
+		await ctx.send(content="@everyone",embed=embed)
+	else:
+		await ctx.send("**__SORRY__ You Not Have Permission To use this commands**:joy: "+ctx.author.mention)
+		
+#loco
+@bot.command(name="loco",description="")
+async def loco(ctx,accuracy:str,prize_won:str,last_question_status:str,result:str):
+	await ctx.message.delete()
+	author=ctx.message.author
+	if last_question_status== 'correct':
+		check=":white_check_mark::white_check_mark:"
+	else:
+		check=":x::x:"
+	if result=='won':
+		emoji =":trophy::trophy:"
+	else:
+		emoji="😭 😭"
+	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
+		embed=discord.Embed(title="Game Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
+		embed.add_field(name="**__LOCO__**",value=f"**Accuracy:\n ➜{accuracy}{check}\n\nPrize Won:\n ➜{prize_won} 💸\n\nLast Question: \n ➜{last_question_status}{check}\n\nGame Status:\n ➜{result} {emoji}**")
+		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/596710160035217408/597750968528142337/giphy.gif")
+		embed.set_image(url="https://cdn.discordapp.com/attachments/610979650394390528/611197487235072020/separation-1.gif")
+		embed.set_footer(text="Velocity",icon_url="https://cdn.discordapp.com/attachments/615767499602001921/620214112949108736/JPEG_20190906_151140.jpg")
+		await ctx.send(content="@everyone",embed=embed)
+	else:
+		await ctx.send("**Lol You Not Have Permission To use this commands**:joy: "+ctx.author.mention)
+#loco
+@bot.command(name="loco",description="")
+async def loco(ctx,accuracy:str,prize_won:str,last_question_status:str,result:str):
+	await ctx.message.delete()
+	author=ctx.message.author
+	if last_question_status== 'correct':
+		check=":white_check_mark::white_check_mark:"
+	else:
+		check=":x::x:"
+	if result=='won':
+		emoji =":trophy::trophy:"
+	else:
+		emoji="😭 😭"
+	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
+		embed=discord.Embed(title="Game Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
+		embed.add_field(name="**__LOCO__**",value=f"**Accuracy:\n ➜{accuracy}{check}\n\nPrize Won:\n ➜{prize_won} 💸\n\nLast Question: \n ➜{last_question_status}{check}\n\nGame Status:\n ➜{result} {emoji}**")
+		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/596710160035217408/597750968528142337/giphy.gif")
+		embed.set_image(url="https://cdn.discordapp.com/attachments/610979650394390528/611197487235072020/separation-1.gif")
+		embed.set_footer(text="Velocity",icon_url="https://cdn.discordapp.com/attachments/615767499602001921/620214112949108736/JPEG_20190906_151140.jpg")
+		await ctx.send(content="@everyone",embed=embed)
+	else:
+		await ctx.send("**__SORRY__ you not have permisson "+ctx.author.mention)
+#loco
+@bot.command(name="loco",description="")
+async def loco(ctx,accuracy:str,prize_won:str,last_question_status:str,result:str):
+	await ctx.message.delete()
+	author=ctx.message.author
+	if last_question_status== 'correct':
+		check=":white_check_mark::white_check_mark:"
+	else:
+		check=":x::x:"
+	if result=='won':
+		emoji =":trophy::trophy:"
+	else:
+		emoji="😭 😭"
+	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
+		embed=discord.Embed(title="Game Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
+		embed.add_field(name="**__LOCO__**",value=f"**Accuracy:\n ➜{accuracy}{check}\n\nPrize Won:\n ➜{prize_won} 💸\n\nLast Question: \n ➜{last_question_status}{check}\n\nGame Status:\n ➜{result} {emoji}**")
+		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/596710160035217408/597750968528142337/giphy.gif")
+		embed.set_image(url="https://cdn.discordapp.com/attachments/610979650394390528/611197487235072020/separation-1.gif")
+		embed.set_footer(text="Velocity",icon_url="https://cdn.discordapp.com/attachments/615767499602001921/620214112949108736/JPEG_20190906_151140.jpg")
+		await ctx.send(content="@everyone",embed=embed)
+	else:
+		await ctx.send("**__SORRY__ You Not Have Permission To use this commands**:joy: "+ctx.author.mention)
+
+#loco
+@bot.command(name="loco",description="")
+async def loco(ctx,accuracy:str,prize_won:str,last_question_status:str,result:str):
+	await ctx.message.delete()
+	author=ctx.message.author
+	if last_question_status== 'correct':
+		check=":white_check_mark::white_check_mark:"
+	else:
+		check=":x::x:"
+	if result=='won':
+		emoji =":trophy::trophy:"
+	else:
+		emoji="😭 😭"
+	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
+		embed=discord.Embed(title="Game Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
+		embed.add_field(name="**__LOCO__**",value=f"**Accuracy:\n ➜{accuracy}{check}\n\nPrize Won:\n ➜{prize_won} 💸\n\nLast Question: \n ➜{last_question_status}{check}\n\nGame Status:\n ➜{result} {emoji}**")
+		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/596710160035217408/597750968528142337/giphy.gif")
+		embed.set_image(url="https://cdn.discordapp.com/attachments/610979650394390528/611197487235072020/separation-1.gif")
+		embed.set_footer(text="Velocity",icon_url="https://cdn.discordapp.com/attachments/615767499602001921/620214112949108736/JPEG_20190906_151140.jpg")
+		await ctx.send(content="@everyone",embed=embed)
+	else:
+		await ctx.send("**__SORRY__ You Not Have Permission To use this commands**:joy: "+ctx.author.mention)
+#loco
+@bot.command(name="loco",description="")
+async def loco(ctx,accuracy:str,prize_won:str,last_question_status:str,result:str):
+	await ctx.message.delete()
+	author=ctx.message.author
+	if last_question_status== 'correct':
+		check=":white_check_mark::white_check_mark:"
+	else:
+		check=":x::x:"
+	if result=='won':
+		emoji =":trophy::trophy:"
+	else:
+		emoji="😭 😭"
+	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
+		embed=discord.Embed(title="Game Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
+		embed.add_field(name="**__LOCO__**",value=f"**Accuracy:\n ➜{accuracy}{check}\n\nPrize Won:\n ➜{prize_won} 💸\n\nLast Question: \n ➜{last_question_status}{check}\n\nGame Status:\n ➜{result} {emoji}**")
+		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/596710160035217408/597750968528142337/giphy.gif")
+		embed.set_image(url="https://cdn.discordapp.com/attachments/610979650394390528/611197487235072020/separation-1.gif")
+		embed.set_footer(text="Velocity",icon_url="https://cdn.discordapp.com/attachments/615767499602001921/620214112949108736/JPEG_20190906_151140.jpg")
+		await ctx.send(content="@everyone",embed=embed)
+	else:
+		await ctx.send("**__SORRY__ You Not Have Permission To use this commands**:joy: "+ctx.author.mention)
+#loco
+@bot.command(name="loco",description="")
+async def loco(ctx,accuracy:str,prize_won:str,last_question_status:str,result:str):
+	await ctx.message.delete()
+	author=ctx.message.author
+	if last_question_status== 'correct':
+		check=":white_check_mark::white_check_mark:"
+	else:
+		check=":x::x:"
+	if result=='won':
+		emoji =":trophy::trophy:"
+	else:
+		emoji="😭 😭"
+	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
+		embed=discord.Embed(title="Game Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
+		embed.add_field(name="**__LOCO__**",value=f"**Accuracy:\n ➜{accuracy}{check}\n\nPrize Won:\n ➜{prize_won} 💸\n\nLast Question: \n ➜{last_question_status}{check}\n\nGame Status:\n ➜{result} {emoji}**")
+		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/596710160035217408/597750968528142337/giphy.gif")
+		embed.set_image(url="https://cdn.discordapp.com/attachments/610979650394390528/611197487235072020/separation-1.gif")
+		embed.set_footer(text="Velocity",icon_url="https://cdn.discordapp.com/attachments/615767499602001921/620214112949108736/JPEG_20190906_151140.jpg")
+		await ctx.send(content="@everyone",embed=embed)
+	else:
+		await ctx.send("**__SORRY__ You Not Have Permission To use this commands**:joy: "+ctx.author.mention)
+#loco
+@bot.command(name="loco",description="")
+async def loco(ctx,accuracy:str,prize_won:str,last_question_status:str,result:str):
+	await ctx.message.delete()
+	author=ctx.message.author
+	if last_question_status== 'correct':
+		check=":white_check_mark::white_check_mark:"
+	else:
+		check=":x::x:"
+	if result=='won':
+		emoji =":trophy::trophy:"
+	else:
+		emoji="😭 😭"
+	if BOT_OWNER_ROLE in [role.name for role in author.roles]:
+		embed=discord.Embed(title="Game Results",description=f"**{ctx.guild.name}**",color=0x142c9c)
+		embed.add_field(name="**__LOCO__**",value=f"**Accuracy:\n ➜{accuracy}{check}\n\nPrize Won:\n ➜{prize_won} 💸\n\nLast Question: \n ➜{last_question_status}{check}\n\nGame Status:\n ➜{result} {emoji}**")
+		embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/596710160035217408/597750968528142337/giphy.gif")
+		embed.set_image(url="https://cdn.discordapp.com/attachments/610979650394390528/611197487235072020/separation-1.gif")
+		embed.set_footer(text="Velocity",icon_url="https://cdn.discordapp.com/attachments/615767499602001921/620214112949108736/JPEG_20190906_151140.jpg")
+		await ctx.send(content="@everyone",embed=embed)
+	else:
+		await ctx.send("**__SORRY__ You Not Have Permission To use this commands**:joy: "+ctx.author.mention)
